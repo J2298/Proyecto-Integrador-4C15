@@ -15,22 +15,24 @@
         <title>Pagina Principal</title>
     </head>
     <body>
+    
     <div class="container">
         <div class="card card-container">
             <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
             <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
             <p id="profile-name" class="profile-name-card"></p>
-        <form method="post" action="userRegistration.jsp" class="form-signin">
+        <form method="post" action="login.jsp" class="form-signin">
             
             
-            <input type="text" name="firstName" value="" class="form-control" placeholder="Nombre"  required autofocus/>
-            <input type="text" name="lastName" value="" class="form-control" placeholder="Apellido"  required autofocus/>
-            <input type="text" name="email" value="" class="form-control" placeholder="Correo"  required autofocus/>
-            <input type="text" name="userName" value="" class="form-control" placeholder="Usuario"  required autofocus/>
-            <input type="password" name="password" value="" class="form-control" placeholder="Contraseña" required/>
-              
+            <input type="text" name="userName" value="" id="inputEmail" class="form-control" placeholder="Usuario"  required autofocus/>
+            <input type="password" name="password" value="" id="inputPassword" class="form-control" placeholder="Password" required/>
+              <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
                 
-             <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" value="Submit">
+             <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" value="Login">
              Sign in
              </button>
                        
@@ -39,7 +41,7 @@
                    
             
         </form>
-        <a href="login.jsp" class="forgot-password">Iniciar Sesion</a>
+        <a href="register.jsp" class="forgot-password">Registrar Nuevo Usuario</a>
         </div><!-- /card-container -->
     </div><!-- /container -->
     </body>

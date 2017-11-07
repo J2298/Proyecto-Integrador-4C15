@@ -3,21 +3,13 @@
 /* style icon */
 .inner-addon .fa { position: absolute; padding: 10px; pointer-events: none; } 
  /* align icon */ 
-.left-addon .fa#as { left: 0px;} 
-.right-addon .fa#as { right: 0px;} /* add padding */ 
+ .left-addon .fa { left: 0px;} 
+.right-addon .fa { right: 0px;} /* add padding */ 
 .left-addon input { padding-left: 30px; }
 .right-addon input { padding-right: 30px; }
 
 .form-control{
 	width: 250px;
-}
-
-.color{
-	color:white;
-}
-
-.card-img-top{
-	height: 200px
 }
 
 #inner {
@@ -30,22 +22,12 @@
 	text-color
 }
 
-.emp{
-	color: white;
-	align: center;
-}
-
 .as{
 	height: 40px;
 	width: 400px;
 	background-color: aqua;
 	display: table;
   margin: 0 auto;
-}
-
-.tam {
-	width: 2500px;
-	height: 100px;
 }
 
 .new{
